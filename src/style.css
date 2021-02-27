@@ -1,3 +1,35 @@
 h1 {
-  font-size: larger;
+  font-size: 30px;
+  color: rgb(119, 114, 114);
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-weight: 100;
+  line-height: 28.8px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.weatherApp {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+}
+
+li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.overview {
+  margin: 20px;
 }
