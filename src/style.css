@@ -9,7 +9,7 @@ h1 {
   margin-bottom: 0;
 }
 
-.weatherApp {
+.weatherapp {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
@@ -34,6 +34,26 @@ ul {
   margin: 20px;
 }
 
-.weathertemp {
-  margin-right: 20px;
+img {
+  position: relative;
+  left: 2px;
+}
+
+.temp {
+  position: relative;
+  left: 80px;
+  top: -70px;
+  font-size: 50px;
+}
+
+.units {
+  position: relative;
+  left: 115px;
+  top: -130px;
+  font-size: 16px;
+}
+
+.col-6 {
+  position: relative;
+  right: -100px;
 }

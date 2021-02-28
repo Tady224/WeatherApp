@@ -12,48 +12,52 @@
     <title>Weather Project Final</title>
 </head>
 <body>
-<div class="container">       
-<div class="weatherApp">
-<div class="overview">
+<div class="container"> 
+    <div class="weatherapp">
 
-
-<h1>
+<h1 id="city">
     Hamburg
 </h1>
+
+<ul>
+    <li>
+        Sunday 05:00
+    </li>
+    <li id="conditions">
+        
+    </li>
+
+</ul>
+
+<div class="row">
+<div class="col-md-6">
+    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Clear">
+<div class="temp" id="temperature"> 
+</div>
+<span class="units">
+°C | °F
+</span>
+    
+
+</div>
+<div class="col-md-6">
 <ul>
 <li>
-    Friday 05:00 
+Precipitaion: 0%
 </li>
 <li>
-    Clear
+Humility: 82%
+</li>
+<li>
+    Wind: 14 km/h
 </li>
 </ul>
 </div>
-<div class="row">
-<div class="col-6">
-    <div class="clearfix weathertemp">
-<img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="cloudy" class="float-left"/>
-<div class="float-left">
-6°C
 </div>
+
+
+
 </div>
-    </div>
-<div class="col-6">
- <ul>
- <li>
-Precipitaion: 2 %
-</li>
-<li>
-Humility: 89%
-</li>
-<li>
-Wind: 13 km/h
-</li>
-</ul>
-    
-</div>
-</div>
-</div>     
 </div>
     <script src="src/script.js"></script>
 </body>
