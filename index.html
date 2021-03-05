@@ -8,6 +8,7 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <link rel="stylesheet" href="src/style.css">
     <title>Weather Project Final</title>
 </head>
@@ -15,8 +16,13 @@
 <div class="container"> 
     <div class="weatherapp">
 
+
+<form id="search-city" 🔎>
+<input class="city" id="city-input" type="text" placeholder="Enter a city" autocomplete="on" />
+<input class="search" type="submit" value="🔎" />
+</form>
 <h1 id="city">
-    
+
 </h1>
 
 <ul>
@@ -42,13 +48,13 @@
 </div>
 <div class="col-md-6">
 <ul>
-<li>
+<li id="precipitaion">
 Precipitaion: 0%
 </li>
-<li>
+<li id="humility">
 Humility: 82%
 </li>
-<li>
+<li id="wind">
     Wind: 14 km/h
 </li>
 </ul>
